@@ -490,7 +490,7 @@
       "plot": "./",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "PCB.stl",
+      "step": "Exports/PCB.step",
       "svg": "",
       "vrml": "PCB.wrl"
     },
