@@ -1,4 +1,4 @@
-27876527943827805
+27918613288270594
 463091370402
 463091370402
 
@@ -62439,6 +62439,34 @@ emi filter
 0
 5
 5
+Footprints
+YAAJ_BlackPill_1
+BlackPill module with pin headers and sockets. No SWD breakout
+module BlackPill Black Pill header socket
+0
+34
+34
+Footprints
+YAAJ_BlackPill_2
+BlackPill module with pin headers / sockets. No SWD breakout
+module BlackPill Black Pill header
+0
+34
+34
+Footprints
+YAAJ_BlackPill_SWD_1
+BlackPill module with pin headers / sockets. SWD broken out to PCB.
+module BlackPill Black Pill header SWD breakout
+0
+38
+38
+Footprints
+YAAJ_BlackPill_SWD_2
+BlackPill module with pin headers / sockets. SWD broken out to PCB.
+module BlackPill Black Pill header SWD breakout
+0
+38
+38
 Fuse
 FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165
 Littelfuse fuse holder for ATO/FKS blade fuses, 80V, vertical, 20 x 6mm, PCB thickness up to 1.5mm, http://www.littelfuse.com/~/media/commercial-vehicle/datasheets/automotive-fuse-holders/ato/littelfuse-fuse-holder-ato-flr-pcb-datasheet.pdf
@@ -71840,6 +71868,13 @@ TB6612FNG DUAL MOTOR DRIVER BREAKOUT BOARD
 0
 57
 26
+Library
+Untitled
+
+
+0
+0
+0
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -94114,6 +94149,13 @@ mousebite stamp slot break tab 2mm edge on-edge
 0
 0
 0
+Pj324
+AUDIO-TH_PJ324
+
+
+0
+5
+5
 Potentiometer_SMD
 Potentiometer_ACP_CA6-VSMD_Vertical
 Potentiometer, vertical, ACP CA6-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf
@@ -98735,6 +98777,13 @@ STM32F103C8T6-BLUEPILL
 40
 40
 STM32F103C8T6
+STM32F401CC-WEACTBOARD-FOOTPRINT
+
+
+0
+44
+44
+STM32F103C8T6
 Untitled
 
 
@@ -100855,6 +100904,69 @@ Logo WEEE
 0
 0
 0
+TB6612FNG
+ADAFRUIT TCS34725
+
+
+0
+7
+7
+TB6612FNG
+OPTO_TCRT5000
+
+
+0
+4
+4
+TB6612FNG
+SIM800L-CORE
+
+
+0
+12
+12
+TB6612FNG
+Slide_Switch_SPDT_ThroughHole
+
+switch, 1p2t, slide, spdt
+0
+3
+3
+TB6612FNG
+TB6612FNG-BREAKOUT
+
+
+0
+16
+16
+TB6612FNG
+TP4056-18650
+
+
+0
+6
+6
+TB6612FNG
+Untitled
+
+
+0
+0
+0
+TB6612FNG
+terminal
+
+
+0
+2
+2
+TB6612FNG
+uBlox-NEO-6M
+
+
+0
+4
+4
 TerminalBlock
 TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm
 terminal block MaiXu MX126-5.0-02P, 2 pins, pitch 5mm, size 10.5x7.8mm, drill diameter 1.3mm, pad diameter 2.8mm, https://www.lcsc.com/datasheet/lcsc_datasheet_2309150913_MAX-MX126-5-0-03P-GN01-Cu-S-A_C5188435.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MaiXu
@@ -108023,6 +108135,48 @@ MINI360 BUCK CONVERTOR
 0
 4
 4
+graphics
+Kashaf1
+
+
+0
+0
+0
+graphics
+Untitled
+
+
+0
+0
+0
+graphics
+Untitled_1
+
+
+0
+0
+0
+graphics
+hearts
+
+
+0
+0
+0
+graphics
+kashaf
+
+
+0
+0
+0
+ky040
+ky040
+
+
+0
+5
+5
 marbastlib-choc
 LED_choc_1206R
 Add-on for regular choc-footprints with MHT151RGBCT 1206 reverse mount LED
@@ -110432,6 +110586,13 @@ stm32 arm wireless bluetooth low energy ble zigbee
 86
 86
 marbastlib-xp-various
+Untitled
+
+
+0
+0
+0
+marbastlib-xp-various
 nRF52840_holyiot_18010_HS
 Module containing a nRF52840 and most passives and antenna
 holyiot 18010 nRF52840 bluetooth low energy 
@@ -110501,3 +110662,10 @@ ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP
 0
 9
 9
+tp4056
+MP
+
+
+0
+3
+3
