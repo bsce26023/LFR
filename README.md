@@ -43,6 +43,7 @@ I designed the schematics for the sensor array, it is the working principle is i
 
 | Name | Purpose | Quantity | Total Cost (USD) | Link | Distributor |
 | --- | --- | --- | --- | --- | --- |
+| PCB | PCB | 2 | 17 | https://cart.jlcpcb.com/shopcart/cart/ | JLCPCB |
 | Mounting Brackets | Mounting motors | 1 | 3 | https://a.aliexpress.com/_c41oltrB | AliExpress |
 | N20 Wheels | Wheels for Motors | 4 | 10 | https://a.aliexpress.com/_c3mDdjNx | Ali Express |
 | Caster Wheels | Caster wheels | 2 | 4 | https://a.aliexpress.com/_c2yFCmMd | AliExpress |
@@ -59,3 +60,4 @@ I designed the schematics for the sensor array, it is the working principle is i
 | Charging module | For charging battery | 1 | 2 | https://a.aliexpress.com/_c3Dtj3BL | Aliexpress |
 | STM32 | Microcontroller | 1 | 6 | https://a.aliexpress.com/_c3GJD5FF | Aliexpress |
 | Customs | - | - | 60 | - | AliExpress |
+| Shipping | - | - | 19 | - | JLCPCB |
