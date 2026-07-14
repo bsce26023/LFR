@@ -1,0 +1,12 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"TB6612FNG_R1,TB6612FNG_L1";"PinHeader_1x08_P2.54mm_Vertical";2;"Conn_01x08";;;
+2;"Motor4,Motor3,Motor1,Motor2";"PinSocket_1x06_P2.54mm_Vertical";4;"Conn_01x06";;;
+3;"J2";"PinSocket_1x02_P2.54mm_Vertical";1;"Charger_Out";;;
+4;"SW1";"SW_Slide_SP3T_Straight_CK_OS103012MU1QP1";1;"SW_SPDT";;;
+5;"J3,J4";"PinSocket_1x20_P2.54mm_Vertical";2;"Conn_01x20";;;
+6;"Buck_IN+1,Buck_OUT-1,Buck_OUT+1,Buck_IN-1";"PinSocket_1x02_P2.54mm_Vertical";4;"Conn_01x02";;;
+7;"J1";"PinHeader_1x16_P2.54mm_Vertical";1;"Conn_01x16";;;
+8;"VIN1";"PinHeader_1x01_P2.54mm_Vertical";1;"Conn_01x01";;;
+9;"GND1";"PinSocket_1x01_P2.54mm_Vertical";1;"Conn_01x01";;;
+10;"J5";"JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical";1;"Battery2";;;
+11;"Battery1";"AMASS_XT60-M_1x02_P7.20mm_Vertical";1;"Conn_01x02";;;
