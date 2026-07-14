@@ -36,7 +36,21 @@ I designed the schematics for the sensor array, it is the working principle is i
 | :---: | :---: |
 | ![schemetics](Custom%20Sensor%20Array/Images/Schematics.JPG) | ![Tracks](Custom%20Sensor%20Array/Images/Tracks.JPG) |
 
-[![3D](Custom%20Sensor%20Array/Images/3D.JPG)]
+![3D](Custom%20Sensor%20Array/Images/3D.JPG)
+
+# Assembling Instructions
+
+After getting the parts and 3d Prints and PCBs
+
+1. Solder the Parts onto PCBs
+2. take M3 Screws and attach the sensor array to the front of the chasis.
+3. Place the Cell Holder in designated spot and screw it in Place.
+4. Take the PCB support plate and place it above the Cell Holder, then place the Main PCB on top of the plate and screw both together on the support rods.
+5. Screw the Motors and caster wheels in Place.
+6. Connect the motors and sensor array to the main PCB.
+7. Flash the code to STM32.
+8. LFR is Ready.
+
 
 
 # Bill of Materials (BOM)
@@ -59,5 +73,6 @@ I designed the schematics for the sensor array, it is the working principle is i
 | Mp1584 | Buck converter | 1 | 4.5 | https://a.aliexpress.com/_c4qnSguh | Aliexpress |
 | Charging module | For charging battery | 1 | 2 | https://a.aliexpress.com/_c3Dtj3BL | Aliexpress |
 | STM32 | Microcontroller | 1 | 6 | https://a.aliexpress.com/_c3GJD5FF | Aliexpress |
+| Soldering Iron | For Soldering | 1 | 15 | https://epro.pk/product/soldering-iron-station-adjustable-temperature-esd-safe-kada-936-in-pakistan/ | Epro |
 | Customs | - | - | 60 | - | AliExpress |
 | Shipping | - | - | 19 | - | JLCPCB |
