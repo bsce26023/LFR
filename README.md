@@ -2,6 +2,8 @@
 
 I designed a LFR from scratch including the PCBs for main board and a custom sensor array.
 
+To View the 3D assembly -->  [Assembly](https://cad.onshape.com/documents/d45a99fa843b34be3d8e85fd/w/9a64eb3e4a0355d274d4a744/e/07efc429ec569cf6f0da1301?renderMode=0&uiState=6a73ae4ff920c2919cbadd91)
+
 
 
 ||||
