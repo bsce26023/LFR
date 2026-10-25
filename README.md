@@ -77,4 +77,6 @@ After getting the parts and 3d Prints and PCBs
 | STM32 | Microcontroller | 1 | 6 | https://a.aliexpress.com/_c3GJD5FF | Aliexpress |
 | Soldering Iron | For Soldering | 1 | 15 | https://epro.pk/product/soldering-iron-station-adjustable-temperature-esd-safe-kada-936-in-pakistan/ | Epro |
 | Customs | - | - | 60 | - | AliExpress |
-| Shipping | - | - | 19 | - | JLCPCB |
+| Shipping | - | - | 20 | - | JLCPCB |
+|  |  |  |  |  |  |
+| Total | - | - | 200 | - | - |
