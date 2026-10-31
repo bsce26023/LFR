@@ -1,6 +1,6 @@
 # Autonomous Line Following Robot
 
-I designed a LFR from scratch including the PCBs for main board and a custom sensor array.
+I designed a LFR from scratch including the PCBs for main board and a custom sensor array. I designed this because I saw a friend of mine going into robotics competetions, so I also wanted to participate in them but I didn't have a robot that I could take to those competetions, so I finally built one myself. I chose STM32 because in some of those events there is a requirement that your robot should not have wireless connectivity, so the first thing that came into my mind was arduino uno but it is very slow and basic compared to other microcontrollers available on market then after some research I had two options Raspberry Pi Pico RP2040 or a STM32 Black Pill. raspberry pi pico had only 3 analog pins so I went with STM32.
 
 To View the 3D assembly -->  [Assembly](https://cad.onshape.com/documents/d45a99fa843b34be3d8e85fd/w/9a64eb3e4a0355d274d4a744/e/07efc429ec569cf6f0da1301?renderMode=0&uiState=6a73ae4ff920c2919cbadd91)
 
@@ -32,7 +32,7 @@ At the end the AO1,  AO2 and BO1, BO2 will be connected to left and right motors
 
 ## Custom Built Sensor Array
 
-I designed the schematics for the sensor array, it is the working principle is inspired from the QTR-16RC sensor array.
+I designed the schematics for the sensor array, it is the working principle is inspired from the QTR-16RC sensor array. I designed this because traditional sensors and sensor arrays look too uncool, so I had to design something that looked aesthetic and visually pleasing.
 
 |Schematics|Tracks|
 | :---: | :---: |
@@ -40,7 +40,7 @@ I designed the schematics for the sensor array, it is the working principle is i
 
 ![3D](Custom%20Sensor%20Array/Images/3D.JPG)
 
-# Assembling Instructions
+<!-- # Assembling Instructions
 
 After getting the parts and 3d Prints and PCBs
 
@@ -51,8 +51,44 @@ After getting the parts and 3d Prints and PCBs
 5. Screw the Motors and caster wheels in Place.
 6. Connect the motors and sensor array to the main PCB.
 7. Flash the code to STM32.
-8. LFR is Ready.
+8. LFR is Ready. -->
 
+## Assembly & Firmware Guide
+
+Because STM32 boards lack native USB bootloaders out-of-the-box like standard Arduino boards, flashing firmware requires a specific procedure using either an **ST-LINK V2 programmer** or the **built-in UART system memory bootloader**. 
+
+### Step 1: Mechanical & Electrical Assembly
+1. **Chassis & Motors:** Secure the DC gear motors to the mechanical chassis frame and attach the wheels.
+2. **PCB Mounting:** Mount the fabricated PCB securely onto the chassis using standoffs.
+3. **Wiring Connections:**
+   * Connect the motor output leads from the gear motors to the motor driver output terminals (`M1`, `M2`).
+   * Connect the IR sensor array to the designated analog/digital input header pins on the PCB.
+   * Wire the power distribution, ensuring proper fusing and a stable common ground between the logic circuitry and motor drivers.
+
+### Step 2: Setting Up the Development Environment
+1. Install **Visual Studio Code** with the **PlatformIO IDE** extension (recommended for STM32 development) or **Arduino IDE** with the STMSS/STM32 Cores by STMicroelectronics installed via the Board Manager.
+2. Clone or download this repository to your local machine.
+
+### Step 3: Connecting the Programmer (ST-LINK V2 Method)
+To flash code to an STM32 board, wire an external **ST-LINK V2 programmer** to the board's SWD pins:
+
+| ST-LINK V2 Pin | STM32 Target Pin | Function |
+| :--- | :--- | :--- |
+| **3.3V** | **3.3V** | Power Supply |
+| **GND** | **GND** | Common Ground |
+| **SWDIO** | **PA13 (DIO)** | Serial Wire Data |
+| **SWCLK** | **PA14 (CLK)** | Serial Wire Clock |
+
+*Note: Ensure the target board is powered either via the ST-LINK's 3.3V pin (if current draw is low) or via an independent battery/bench supply.*
+
+### Step 4: Uploading the Firmware
+1. Open the project workspace in your IDE.
+2. Verify that your `platformio.ini` or Arduino board settings match your exact STM32 part number (e.g., `stm32f103c8`).
+3. Build/compile the project to check for syntax or dependency errors.
+4. Initiate the upload command:
+   * **In PlatformIO:** Click the **Upload** arrow icon (PlatformIO will automatically invoke OpenOCD and interface with your ST-LINK).
+   * **In Arduino IDE:** Select **ST-LINK** under *Tools > Programmer*, then click **Upload**.
+5. Once the upload finishes successfully, disconnect the programmer (or keep it connected for serial debugging via UART if configured), power cycle the robot, and place it on the test track.
 
 
 # Bill of Materials (BOM)
