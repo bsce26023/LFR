@@ -40,19 +40,6 @@ I designed the schematics for the sensor array, it is the working principle is i
 
 ![3D](Custom%20Sensor%20Array/Images/3D.JPG)
 
-<!-- # Assembling Instructions
-
-After getting the parts and 3d Prints and PCBs
-
-1. Solder the Parts onto PCBs
-2. take M3 Screws and attach the sensor array to the front of the chasis.
-3. Place the Cell Holder in designated spot and screw it in Place.
-4. Take the PCB support plate and place it above the Cell Holder, then place the Main PCB on top of the plate and screw both together on the support rods.
-5. Screw the Motors and caster wheels in Place.
-6. Connect the motors and sensor array to the main PCB.
-7. Flash the code to STM32.
-8. LFR is Ready. -->
-
 ## Assembly & Firmware Guide
 
 Because STM32 boards lack native USB bootloaders out-of-the-box like standard Arduino boards, flashing firmware requires a specific procedure using either an **ST-LINK V2 programmer** or the **built-in UART system memory bootloader**. 
